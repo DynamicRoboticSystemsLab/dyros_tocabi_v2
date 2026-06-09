@@ -127,7 +127,7 @@
                     <geom class="cls" size="0.05225 0.03 0.0475" pos="-0.0045 0 0" type="box"/>
                     <body name="R_Thigh_Link" pos="0 0 0">
                         <inertial pos="-0.00042 -0.00032 -0.18904" mass="5.366" fullinertia="0.2987 0.7088 0.00982 -4.284E-05 -0.000196 0.002406" />
-                        <joint name="R_HipPitch_Joint" pos="0 0 0" axis="0 1 0" limited="true" range="-3.14 3.14" class="shg20_100_2so"/>
+                        <joint name="R_HipPitch_Joint" pos="0 0 0" axis="0 1 0" limited="true" range="-3.14 3.14" armature="1.09" class="shg20_100_2so"/>
                         <geom class="viz" rgba="0.85938 0.07813 0.23438 1" mesh="Thigh_R_Link" />
                         <geom class="cls" size="0.049 0.038815" pos="0 0 -0.35" quat="0.707107 0.707107 0 0" type="cylinder"/>
                         <geom class="cls" size="0.06 0.10875" pos="0 0 -0.1923" type="cylinder"/>
